@@ -21,7 +21,7 @@ http://wiki.ros.org/turtlebot_gazebo
 `pick_objects`: This package communicates with the ROS navigation stack and autonomously send successive goals for the robot to reach. The first goal is a pickup location
  and the second goal is a drop-off location. 
  
-`add_markers`: This package displays virtual object with markers in rviz. The package has two flavors which can be selected by a parameter called robot_tracking (configured in launch file)
+`add_markers`: This package displays virtual object with markers in rviz. The package has two flavors which can be selected by a parameter called robot_tracking (configured in launch file).
 
 With parameter `robot_tracking=0` the package performs the following actions:
 * Publish the marker at the pickup zone
@@ -32,9 +32,9 @@ With parameter `robot_tracking=0` the package performs the following actions:
 
 With parameter `robot_tracking=1` the package performs the following actions:
 * Initially show the marker at the pickup zone
-* Hide the marker once your robot reaches the pickup zone
+* Hide the marker once the robot reaches the pickup zone
 * Wait 5 seconds to simulate a pickup
-* Show the marker at the drop off zone once your robot reaches it
+* Show the marker at the drop off zone once the robot reaches it
 
 ## Python
 The UDACITY workspace is setup to use Python 3 while the ROS-Kinetic distribution requires Python 2. To correctly launch and run this project, make sure to use Python 2.
