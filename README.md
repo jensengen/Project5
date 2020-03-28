@@ -43,16 +43,16 @@ For the UDACITY workspace, a work-around is described here:
 https://github.com/PenguinLemma/udacity-robond-p5/blob/master/doc/UDACITY_WS_SETUP.md
 
 ## Scripts
-The folder /src/scripts/ contains a number of scripts to launch and configure all packages.. A short description of the scripts is below. 
+The folder `/src/scripts/` contains a number of scripts to launch and configure all packages.. A short description of the scripts is below. 
 
 `test_slam.sh`
-Launches the packages for manual SLAM testing. Robot is operated by teleop
+Launches the packages for manual SLAM testing. Robot is operated by teleop.
 
 `test_navigation.sh`
-Launches the packages for navigation testing. Robot goal is set though RVIZ.
+Launches the packages for navigation testing. Robot goal is set through RVIZ.
 
 `pick_objects.sh`
-Launches the packages for testing of pick_objects node. pick_objects publishes navigation goals for the robot
+Launches the packages for testing of the pick_objects node. pick_objects publishes navigation goals for the robot.
 
 `add_marker.sh`
 Launches the packages for displaying virtual objects in RVIZ. 
@@ -65,6 +65,6 @@ All scripts should be run from catkin_ws like this:
 `./src/scripts/script_name.sh` 
 
 Before running a script, make sure to build the workspace and source the setup script
-source devel/setup.bash
+`source devel/setup.bash`
 
-As mentioned above make sure to run scripts from a Python 2 enabled terminal window.
+As mentioned above, make sure to run scripts from a Python 2 enabled terminal window.
