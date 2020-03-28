@@ -37,7 +37,7 @@ With parameter `robot_tracking=1` the package performs the following actions:
 * Show the marker at the drop off zone once the robot reaches it
 
 ## Python
-The UDACITY workspace is setup to use Python 3 while the ROS-Kinetic distribution requires Python 2. To correctly launch and run this project, make sure to use Python 2.
+By default the UDACITY workspace is setup to use Python 3 while the ROS-Kinetic distribution requires Python 2. To correctly launch and run this project, make sure to use Python 2.
 
 For the UDACITY workspace, a work-around is described here:
 https://github.com/PenguinLemma/udacity-robond-p5/blob/master/doc/UDACITY_WS_SETUP.md
