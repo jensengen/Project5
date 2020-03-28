@@ -5,7 +5,7 @@ This repository contains the code for the UDACITY project Home Service Robot.
 The Project relies on official ROS packages as well as custom packages developed for this project.
 
 ### Official ROS Packages
-`gmapping`: This package performs SLAM and build a map of the environment with a robot equipped with laser range finder sensors or RGB-D cameras.
+`gmapping`: This package performs SLAM and builds a map of the environment with a robot equipped with laser range finder sensors or RGB-D cameras.
 http://wiki.ros.org/gmapping
 
 `turtlebot_teleop`: This package provides teleoperation to manually control a robot using keyboard commands.
