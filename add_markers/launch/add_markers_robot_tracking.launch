@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="add_markers" type="add_markers_node" name="add_markers" output="screen" />
+    <param name="track_robot_par" type="int" value="1"/>
+</launch>
